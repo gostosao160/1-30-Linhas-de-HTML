@@ -1,0 +1,83 @@
+
+
+body {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: flex-start;
+    padding: 20px; 
+    background-color: rgb(36, 36, 36);
+}
+
+.button-container {
+    display: flex;
+    gap: 110px; 
+    justify-content: flex-start;
+}
+
+.Button {
+    padding: 20px 50px;
+    background-color: rgb(211, 211, 211);
+    color: rgb(46, 46, 46);
+    border-radius: 80px;
+    text-decoration: none;
+    position: relative;
+}
+
+.Button span {
+    font-size: 23px;
+    position: relative;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px; 
+    width: 100%;
+    height: auto;
+}
+
+.cube-container {
+    display: grid;
+    grid-template-columns: repeat(4, auto); 
+    gap: 10px; 
+    font-size: 30px;
+    
+}
+
+.Cube {
+    width: 70px; 
+    height: 70px;
+    background-color: rgb(211, 211, 211);
+    color: rgb(46, 46, 46);
+    text-align: center;
+    line-height: 70px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 12px;
+    
+}
+
+/*este codigo *ABAIXO* teve ajuda do Youtube (Não foi bem compriendido como ele funciona. Ass: Arthur Peixoto */
+.Button, .Cube {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Button:hover, .Cube:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+/*este codigo *ACIMA* teve ajuda do Youtube (Não foi bem compriendido como ele funciona. Ass: Arthur Peixoto */
+
+
+
+
