@@ -1,0 +1,178 @@
+/* Estilo do corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Fonte usada no texto */
+    margin: 0; /* Remove margem padrão */
+    padding: 10px; /* Adiciona espaçamento interno */
+    background-color: #242424; /* Cor de fundo escura */
+    color: #333; /* Cor do texto (não é usada nesse exemplo, mas serve como padrão) */
+    user-select: none;
+}
+
+/* Container do cabeçalho e navegação */
+.HeaderDoSite {
+     width: 90%;
+    max-width: 900px;
+    margin: 10px auto;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6); /* Sombra suave e escura */
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #141313; /* Cor de fundo do cabeçalho */
+    color: rgb(255, 217, 0); /* Cor do texto (amarelo) */
+    text-align: center; /* Centraliza o texto */
+    padding: 10px; /* Espaçamento interno */
+    margin: 0; /* Remove margem */
+}
+
+/* Estilo do menu de navegação */
+nav {
+    display: flex; /* Usa flexbox para organizar os itens */
+    justify-content: center; /* Centraliza os itens */
+    background-color: #fbb111; /* Cor de fundo do menu */
+    gap: 70px; /* Espaço entre os botões */
+    margin: 0; /* Remove margens */
+    padding: 10px; /* Espaçamento interno */
+}
+
+/* Estilo básico dos links dentro do nav */
+nav a {
+    color: white; /* Cor do texto dos links */
+    padding: 14px 20px; /* Espaçamento interno */
+    text-decoration: none; /* Remove sublinhado */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Estilo personalizado dos botões */
+.Button {
+    padding: 20px 50px; /* Tamanho do botão */
+    background-color: rgb(24, 24, 24); /* Fundo preto */
+    color: rgb(255, 255, 255); /* Texto branco */
+    border-radius: 80px; /* Deixa o botão bem arredondado */
+    text-decoration: none; /* Remove sublinhado */
+    position: relative; /* Para efeitos posicionais futuros */
+    display: inline-block; /* Permite ajustar o tamanho e aplicar transformações */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animações suaves */
+}
+
+/* Efeito ao passar o mouse sobre os botões */
+.Button:hover {
+    transform: scale(1.1); /* Aumenta o botão */
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.582); /* Adiciona sombra brilhante */
+}
+
+
+.Corpo {
+    background-color: #141313; /* Cor de fundo do cabeçalho */
+    color: rgb(255, 217, 0); /* Cor do texto (amarelo) */
+    text-align: center; /* Centraliza o texto */
+    padding: 60px; /* Espaçamento interno */
+    border-radius: 90px;
+    margin: 10px auto;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6); /* Sombra suave e escura */
+    max-width: 1700px;
+}
+
+.H1AUMENTADO {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px; 
+    
+}
+
+textarea {
+    border-radius: 8px;
+    font-size: 17px;
+    
+}
+
+footer {
+    background-color: #141313; /* Cor de fundo do cabeçalho */
+    color: rgb(255, 255, 255); /* Cor do texto (amarelo) */
+    padding: 10px; /* Espaçamento interno */
+    margin: 0; /* Remove margem */
+}
+
+.RodapeDoSite {
+    background-color: #141313; /* Cor de fundo do cabeçalho */
+    color: rgb(255, 217, 0); /* Cor do texto (amarelo) */
+    text-align: center; /* Centraliza o texto */
+    padding: 30px; /* Espaçamento interno */
+    border-radius: 30px;
+    margin: 45px auto;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6); /* Sombra suave e escura */
+    max-width: 1700px;
+}
+
+.Button2 {
+    padding: 20px 50px; /* Tamanho do botão */
+    background-color: rgb(255, 217, 0); /* Fundo preto */
+    color: rgb(0, 0, 0); /* Texto branco */
+    border-radius: 80px; /* Deixa o botão bem arredondado */
+    text-decoration: none; /* Remove sublinhado */
+    position: relative; /* Para efeitos posicionais futuros */
+    display: inline-block; /* Permite ajustar o tamanho e aplicar transformações */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animações suaves */
+    margin: 20px;
+}
+
+/* Efeito ao passar o mouse sobre os botões */
+.Button2:hover {
+    transform: scale(1.1); /* Aumenta o botão */
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.26); /* Adiciona sombra brilhante */
+}
+
+.github {
+    width: 43px;
+}
+
+.youtube {
+    width: 40px;
+}
+
+div{
+    text-align: left;
+}
+
+.FooterGit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.Centralizar {
+    text-align: center;
+    color: white;
+}
+
+.MainrLeft {
+text-align: left;
+padding: 10px;
+}
+
+.MainRight {
+    text-align: right;
+}
+
+.ColorA {
+    color: #014ef3;
+}
+
+.H1AUMENTADO2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 70px; 
+}
+
+.PularEspaço {
+    margin-bottom: 136px; 
+}
+
+.PularEspaço2 {
+    margin-bottom: 5px; 
+}
+
+
