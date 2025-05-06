@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /* Estilo do corpo da página */
 body {
     font-family: Arial, sans-serif; /* Fonte usada no texto */
@@ -177,31 +177,3 @@ padding: 10px;
 }
 
 
-=======
-header {
-    background-color: #141313;
-    color: rgb(255, 217, 0);
-    text-align: center;
-    padding: 10px;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #242424;
-    color: #333;
-}
-
-nav {
-    display: flex;
-    justify-content: center;
-    background-color: #fbb111;}
-
-    nav a {
-        color: white;
-        padding: 14px 20px;
-        text-decoration: none;
-        text-align: center;
-    }
->>>>>>> 4218282c245882127583183876932f032e6f6696
